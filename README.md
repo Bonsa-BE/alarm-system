@@ -9,9 +9,10 @@ Look no further!
 | motionsensor | 1 | PIR |
 | oled  | 1 | SSD1306 |
 | nrf24L01  | 2  | + |
-| potentiometer  | 1  | 50k |
+| potentiometer  | 1  | 50k Ohms |
 | buzzer | 1 | |
 | push button | 1 | |
+| resistor | 1 | 10k Ohms
 | Dupont cables | 20 | |
 
 Most of these components are ubiquitous and should already be in your electronics kit!\
@@ -53,3 +54,27 @@ Follow this wiring diagram:
 | Pin 36 / 3V3 Out | 	VCC |
 | Pin 38 / GND (or any other GND Pin)	| GND |
 | Pin 31 / GP26	| analog in |
+
+You are now done with the master of this project. We're halfway there, congrats!
+
+### 3. connect the oled display
+Take the other Pi Pico and connect your oled display as follows:
+
+| Pico	| oled |
+| --- | --- |
+| Pin 36 / 3V3 Out | 	VCC |
+| Pin 38 / GND (or any other GND Pin)	| GND |
+| Pin 1 / GP0	| SDA |
+| Pin 2 / GP1	| SCL |
+
+### 4. connect the reset button
+On Pin 14 (GP10) connect a pushbutton with the 10k Ohms resistor to GND like this:\
+![image](https://user-images.githubusercontent.com/68948638/231729023-5c4e8c00-e941-4072-bc76-0cf64cc6c3c8.png)
+
+### 5. connect the buzzer
+On Pin 21 (GP16) connect 1 leg of the buzzer. Connect the other leg to a GND pin, like Pin 38.\
+You are now finished with all the wiring. Congratulations!
+
+## code
+All that's left to do is upload the correct folder to every Pico. The one with the oled screen connected should get the folder called slave.\
+The other one the folder called master.
