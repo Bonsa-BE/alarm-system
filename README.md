@@ -42,6 +42,14 @@ Choose which Pico you want to use to capture motion. Connect the sensor as follo
 | --- | --- |
 | Pin 36 / 3V3 Out | 	VCC |
 | Pin 38 / GND (or any other GND Pin)	| GND |
-| Pin 22 / GP17	| CE |
+| Pin 32 / GP27	| digital in |
 
-### 3. connect 
+### 3. connect the potentiometer
+On the same Pico that you connected the PIR sensor to, connect the potentiometer.\
+Follow this wiring diagram:
+
+| Pico	| potentiometer |
+| --- | --- |
+| Pin 36 / 3V3 Out | 	VCC |
+| Pin 38 / GND (or any other GND Pin)	| GND |
+| Pin 31 / GP26	| analog in |
