@@ -13,4 +13,5 @@ Look no further!
 | buzzer | 1 | |
 | push button | 1 | |
 | Dupont cables | 20 | |
+
 Most of these components are ubiquitous and should already 
