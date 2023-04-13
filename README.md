@@ -77,4 +77,11 @@ You are now finished with all the wiring. Congratulations!
 
 ## code
 All that's left to do is upload the correct folder to every Pico. The one with the oled screen connected should get the folder called slave.\
-The other one the folder called master.
+The other one the folder called master.\
+
+When installed correctly, you should be able to trigger the PIR sensor by moving your hand alongside it. This will let the nrf modules communicate between eachother and will sound your alarm. Depending on what resistive value your potentiometer is pointing at, the alarm will play a different song.\
+Good luck and have fun!
+
+## pictures
+![IMG_20230413_155625](https://user-images.githubusercontent.com/68948638/231782099-cd48b2f5-df0c-4a29-a2f5-33c5a86117b2.jpg)
+![IMG_20230413_155630](https://user-images.githubusercontent.com/68948638/231782171-0812714c-6131-4c7b-b1ff-7767dcd0b863.jpg)
