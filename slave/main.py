@@ -1,0 +1,3 @@
+import slave
+
+slave.slave()
