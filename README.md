@@ -20,6 +20,10 @@ Maybe the PIR sensor is new to you, but it's actually pretty simple and easy to 
 The one used in this project can be found [here](https://www.gotron.be/pir-bewegingssensor-voor-arduinor.html)
 
 ## build guide
+### schematic
+For the impatient (or advanced) tinkerer who doesn't want to read the guide, here's the schematic to get you up and running:
+![image](https://user-images.githubusercontent.com/68948638/232106007-103b7b33-5594-4a9a-9c1b-c20148de6d6a.png)
+
 ### 1. connect nrf modules
 To keep things easy, both modules use the same pins for their connection to the nrf modules.\
 wiring table:
